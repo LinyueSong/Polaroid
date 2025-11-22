@@ -5,7 +5,10 @@ export enum FilterType {
   COOL = 'Cool',
   WARM = 'Warm',
   FADED = 'Faded',
-  DRAMATIC = 'Dramatic'
+  DRAMATIC = 'Dramatic',
+  VELVIA = 'Velvia',
+  CHROME = 'Chrome',
+  INSTAX = 'Instax'
 }
 
 export interface FilterConfig {

@@ -35,5 +35,20 @@ export const FILTERS: Record<FilterType, FilterConfig> = {
     name: FilterType.DRAMATIC,
     class: 'contrast-[1.3] saturate-[1.2] brightness-[0.9]',
     cssFilter: 'contrast(1.3) saturate(1.2) brightness(0.9)'
+  },
+  [FilterType.VELVIA]: {
+    name: FilterType.VELVIA,
+    class: 'saturate-[1.6] contrast-[1.2] brightness-[0.95]',
+    cssFilter: 'saturate(1.6) contrast(1.2) brightness(0.95)'
+  },
+  [FilterType.CHROME]: {
+    name: FilterType.CHROME,
+    class: 'saturate-[0.6] contrast-[1.2] brightness-[1.05] sepia-[0.1]',
+    cssFilter: 'saturate(0.6) contrast(1.2) brightness(1.05) sepia(0.1)'
+  },
+  [FilterType.INSTAX]: {
+    name: FilterType.INSTAX,
+    class: 'brightness-[1.1] contrast-[1.05] saturate-[0.95] sepia-[0.05]',
+    cssFilter: 'brightness(1.1) contrast(1.05) saturate(0.95) sepia(0.05)'
   }
 };
