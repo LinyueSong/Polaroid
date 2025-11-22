@@ -1,0 +1,7 @@
+{
+  "name": "RetroSnap - AI Polaroid Simulator",
+  "description": "A nostalgic instant camera simulator. Snap photos, watch them develop, apply vintage filters, and get AI-generated captions.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
